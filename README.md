@@ -1,5 +1,7 @@
 # <h1 align=center> **PROYECTO INDIVIDUAL Nº2** -Siniestros Viales en CABA  </h1> 
 
+![Texto alternativo](imagenes/educacion-vial-para-ninos-1900Wx500H.png)
+
 ## ** Descripción de la Temática**⚠️ 🚧
 
 El problema de los siniestros viales, también conocidos como accidentes de tráfico o accidentes de tránsito, es significativo en ciudades como Buenos Aires debido al alto volumen de tráfico y densidad poblacional. Estos incidentes pueden resultar en daños materiales, lesiones graves o incluso la muerte de los involucrados. En Argentina, los siniestros viales representan una preocupación importante, ya que causan un alto número de muertes cada año, superando incluso a otras formas de violencia. Entre 2018 y 2022, se registraron 19.630 muertes en siniestros viales en todo el país, equivalente a un promedio de 11 personas por día. Estas cifras son alarmantes y subrayan la necesidad de medidas efectivas para abordar este problema. La prevención de siniestros viales requiere una combinación de educación vial, cumplimiento de normas de tráfico, mejora de la infraestructura vial y promoción de vehículos más seguros. Es fundamental seguir de cerca las estadísticas e implementar políticas efectivas para reducir las tasas de mortalidad relacionadas con los siniestros viales.
@@ -26,14 +28,15 @@ Se guarda en archivo xslx
 ### EDA (EXPLORATORY DATA ANALYSIS)⛔
 Se importan las librerías necesarias y se analizan valores nulos , outliers y duplicados, así como también se realiza análisis estadísticos y visualizaciones de los datos para explorar las relaciones entre las variables e identificar patrones o tendencias en los datos.
 
-valores nulos:
+**Valores nulos**:
 
 Se encontraron valores nulos en las columnas Altura,Cruce y calle . Se optó por eliminar la columna altura debido a al % de valores nulos con respecto a su totalidad.(Porcentaje de valores nulos en la columna Altura: 81.45%)
 En la columna Cruce , se imputo con la palabra "NO" modificando los valores Nulos , haciendo referencia que quizas el accidente No fue en un cruce de calles o no hay informacion al respecto.
 
-valores duplicados: encontramos 21 valores duplicados en la columna ID , por lo que decidimos eliminar los duplicados y dejar solo valores unicos en dicha columna.
+**Valores Duplicados**:
+encontramos 21 valores duplicados en la columna ID , por lo que decidimos eliminar los duplicados y dejar solo valores unicos en dicha columna.
 
-conversion de Columnas 
+**Conversion de Columnas** 
 Se realiza cambios en  los tipos de datos de las columnas 
 Nro Victimas numericos
 Fecha date 
@@ -41,7 +44,7 @@ hora time
 comuna numerico
 Edad numerico
 
-Outliers :
+**Outliers**
 Como conclusión de outliers en la columna Numeros de victimas:
 se utilizo un diagrama de cajas para visualizar la distribucion de la  columna con el total de n° de victimas , se verifica que , la mayoria de la cantidad de victimas esta en el primer cuartil , y que como outliers podemos observar que son pocos los valores donde la cantidad de victimas son 2 o 3.
 
@@ -51,11 +54,13 @@ Cantidad de Victimas por comuna:
 
 podemos observar que en la comuna 1, 4 y 9 son las mayor parte de los accidentes, cuando lo llevemos al dashboard podremos observar que zona es y servirá para tomar medidas que disminuyan los mismos 
 
+![Texto alternativo](imagenes/accidentes_comuna.png)
+
 
 Cantidad de Victimas por Genero:
 
 Verificamos que la mayor parte de victimas son personas de genero masculino con un 76% y genero femenino 23,02%, dejando un 0,8 % donde nuestro dataset no tiene datos del genero de la victima, esto puede deberse a que en nuestro dataset tenemos mas conductores hombres que mujeres.
-
+![Texto alternativo](imagenes/victimas_genero.png)
 DISTRIBUCION CRUZADA ENTRE VICTIMAS Y SEXO:
 
 Basándonos en la distribución cruzada entre el tipo de víctima y el sexo mostrada en el gráfico de barras apiladas, podemos hacer las siguientes conclusiones:
@@ -65,7 +70,7 @@ Mayor número de víctimas en Moto: La categoría de víctimas en moto tiene el 
 Víctimas peatones y en auto: Las categorías de víctimas que involucran peatones y ocupantes de automóviles también muestran una predominancia del género masculino, aunque la diferencia entre hombres y mujeres no es tan pronunciada como en el caso de las víctimas en moto.
 
 Otras categorías: Algunas categorías como "OBJETO FIJO" y "MOVIL" tienen un número bajo de víctimas, mientras que "CARGAS" no tiene víctimas femeninas. Esto podría sugerir que estos tipos de accidentes son menos comunes o tienen características específicas que los hacen menos propensos a afectar a ciertos géneros.
-
+![Texto alternativo](imagenes/distribucion_cruzada.png)
 Estas son algunos de los insigths que se pudieron observar, el resto se encuentra en el archivo EDA.
 
 Finalizamos el proceso guardando el dataset en formato CSV en la ruta "PI2_Siniestros_Viales\csv\homicidio_Eda.csv"
@@ -113,7 +118,7 @@ Conclusion:
 
 En general, estos resultados sugieren que se han producido cambios en la tasa de homicidios en siniestros viales a lo largo del tiempo, lo que indica la importancia de implementar medidas efectivas para mejorar la seguridad vial y reducir el número de víctimas en la ciudad.
 
-
+![Texto alternativo](imagenes/KPI1.png)
 
 ##**KPI N2**
 
@@ -121,6 +126,7 @@ Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el últi
 
 Definimos a la cantidad de accidentes mortales de motociclistas en siniestros viales como el número absoluto de accidentes fatales en los que estuvieron involucradas víctimas que viajaban en moto en un determinado periodo temporal. Su fórmula para medir la evolución de los accidentes mortales con víctimas en moto es: (Número de accidentes mortales con víctimas en moto en el año anterior - Número de accidentes mortales con víctimas en moto en el año actual) / (Número de accidentes mortales con víctimas en moto en el año anterior) * 100
 
+![Texto alternativo](imagenes/KPI2.png)
 Conclusion :
 Los resultados muestran una disminución significativa en el número de víctimas totales de siniestros viales, pasando de 150 en 2016 a 97 en 2021. Sin embargo, la cantidad de víctimas en moto ha experimentado fluctuaciones significativas a lo largo de los años, con una tendencia a la baja en general, especialmente destacada en 2020 con una disminución del 40% en comparación con el año anterior. En 2021, se observa un aumento notable del 53.33% en el número de víctimas en moto, lo que indica un cambio significativo en la seguridad vial para este grupo de usuarios.
 
@@ -147,4 +153,5 @@ PORTADA----RESUMEN---DATOSGEOGRAFICOS---OBEJTIVOS
 
  lo pueden ver ACCEDIENDO al  ARCHIVO "Dashboard_Siniestros_Viales.pbix
 
-
+o bien con uan cuenta de office 365 en 
+https://app.powerbi.com/links/Hk4eAXn03c?ctid=f3ba59c3-bad4-442f-93aa-4cb73a8b7874&pbi_source=linkShare&bookmarkGuid=c131c463-fb85-45c3-ae94-1d3f30d9c20f
