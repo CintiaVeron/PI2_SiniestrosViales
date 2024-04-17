@@ -1,4 +1,4 @@
-## **Proyecto Individual N°2** -Siniestros Viales en CABA  
+# <h1 align=center> **PROYECTO INDIVIDUAL Nº2** -Siniestros Viales en CABA  </h1> 
 
 ## ** Descripción de la Temática**⚠️ 🚧
 
