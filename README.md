@@ -28,14 +28,15 @@ Se guarda en archivo xslx
 ### EDA (EXPLORATORY DATA ANALYSIS)⛔
 Se importan las librerías necesarias y se analizan valores nulos , outliers y duplicados, así como también se realiza análisis estadísticos y visualizaciones de los datos para explorar las relaciones entre las variables e identificar patrones o tendencias en los datos.
 
-valores nulos:
+**Valores nulos**:
 
 Se encontraron valores nulos en las columnas Altura,Cruce y calle . Se optó por eliminar la columna altura debido a al % de valores nulos con respecto a su totalidad.(Porcentaje de valores nulos en la columna Altura: 81.45%)
 En la columna Cruce , se imputo con la palabra "NO" modificando los valores Nulos , haciendo referencia que quizas el accidente No fue en un cruce de calles o no hay informacion al respecto.
 
-valores duplicados: encontramos 21 valores duplicados en la columna ID , por lo que decidimos eliminar los duplicados y dejar solo valores unicos en dicha columna.
+**Valores Duplicados**:
+encontramos 21 valores duplicados en la columna ID , por lo que decidimos eliminar los duplicados y dejar solo valores unicos en dicha columna.
 
-conversion de Columnas 
+**Conversion de Columnas** 
 Se realiza cambios en  los tipos de datos de las columnas 
 Nro Victimas numericos
 Fecha date 
@@ -43,7 +44,7 @@ hora time
 comuna numerico
 Edad numerico
 
-Outliers :
+**Outliers**
 Como conclusión de outliers en la columna Numeros de victimas:
 se utilizo un diagrama de cajas para visualizar la distribucion de la  columna con el total de n° de victimas , se verifica que , la mayoria de la cantidad de victimas esta en el primer cuartil , y que como outliers podemos observar que son pocos los valores donde la cantidad de victimas son 2 o 3.
 
@@ -152,4 +153,5 @@ PORTADA----RESUMEN---DATOSGEOGRAFICOS---OBEJTIVOS
 
  lo pueden ver ACCEDIENDO al  ARCHIVO "Dashboard_Siniestros_Viales.pbix
 
-
+o bien con uan cuenta de office 365 en 
+https://app.powerbi.com/links/Hk4eAXn03c?ctid=f3ba59c3-bad4-442f-93aa-4cb73a8b7874&pbi_source=linkShare&bookmarkGuid=c131c463-fb85-45c3-ae94-1d3f30d9c20f
