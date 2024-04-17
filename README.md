@@ -1,5 +1,7 @@
 # <h1 align=center> **PROYECTO INDIVIDUAL Nº2** -Siniestros Viales en CABA  </h1> 
 
+![Texto alternativo](imagenes/educacion-vial-para-ninos-1900Wx500H.png)
+
 ## ** Descripción de la Temática**⚠️ 🚧
 
 El problema de los siniestros viales, también conocidos como accidentes de tráfico o accidentes de tránsito, es significativo en ciudades como Buenos Aires debido al alto volumen de tráfico y densidad poblacional. Estos incidentes pueden resultar en daños materiales, lesiones graves o incluso la muerte de los involucrados. En Argentina, los siniestros viales representan una preocupación importante, ya que causan un alto número de muertes cada año, superando incluso a otras formas de violencia. Entre 2018 y 2022, se registraron 19.630 muertes en siniestros viales en todo el país, equivalente a un promedio de 11 personas por día. Estas cifras son alarmantes y subrayan la necesidad de medidas efectivas para abordar este problema. La prevención de siniestros viales requiere una combinación de educación vial, cumplimiento de normas de tráfico, mejora de la infraestructura vial y promoción de vehículos más seguros. Es fundamental seguir de cerca las estadísticas e implementar políticas efectivas para reducir las tasas de mortalidad relacionadas con los siniestros viales.
