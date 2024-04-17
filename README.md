@@ -53,11 +53,11 @@ Cantidad de Victimas por comuna:
 
 podemos observar que en la comuna 1, 4 y 9 son las mayor parte de los accidentes, cuando lo llevemos al dashboard podremos observar que zona es y servirá para tomar medidas que disminuyan los mismos 
 
-
+![Texto alternativo]()
 Cantidad de Victimas por Genero:
 
 Verificamos que la mayor parte de victimas son personas de genero masculino con un 76% y genero femenino 23,02%, dejando un 0,8 % donde nuestro dataset no tiene datos del genero de la victima, esto puede deberse a que en nuestro dataset tenemos mas conductores hombres que mujeres.
-
+![Texto alternativo]()
 DISTRIBUCION CRUZADA ENTRE VICTIMAS Y SEXO:
 
 Basándonos en la distribución cruzada entre el tipo de víctima y el sexo mostrada en el gráfico de barras apiladas, podemos hacer las siguientes conclusiones:
@@ -67,7 +67,7 @@ Mayor número de víctimas en Moto: La categoría de víctimas en moto tiene el 
 Víctimas peatones y en auto: Las categorías de víctimas que involucran peatones y ocupantes de automóviles también muestran una predominancia del género masculino, aunque la diferencia entre hombres y mujeres no es tan pronunciada como en el caso de las víctimas en moto.
 
 Otras categorías: Algunas categorías como "OBJETO FIJO" y "MOVIL" tienen un número bajo de víctimas, mientras que "CARGAS" no tiene víctimas femeninas. Esto podría sugerir que estos tipos de accidentes son menos comunes o tienen características específicas que los hacen menos propensos a afectar a ciertos géneros.
-
+![Texto alternativo]()
 Estas son algunos de los insigths que se pudieron observar, el resto se encuentra en el archivo EDA.
 
 Finalizamos el proceso guardando el dataset en formato CSV en la ruta "PI2_Siniestros_Viales\csv\homicidio_Eda.csv"
