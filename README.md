@@ -15,7 +15,7 @@ En el rol de Data Analyst, el Observatorio de Movilidad y Seguridad Vial (OMSV),
 
 ##**Proceso de Analisis**
 
-## **ETL (Extraction, Transformation, and Loading)**⚠️ 🚧
+## **ETL (Extraction, Transformation, and Load)**⚠️ 🚧
 
 En este proceso lo que se realizo es la importación de los datos desde la fuente brindada, con el fin de revisar los archivos xlsx, ver su formato , las cantidad de columnas y filas, una vez completa la revisión se realiza las siguientes transformaciones
   •	Homicidios.xlsx: se observa que posee varias hojas:
