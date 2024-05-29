@@ -145,13 +145,36 @@ En comparación con el año 2020, hubo una disminución del 2,94% en el número 
 
 ### TABLERO DE VISUALIZACION POWER BI⛔
 
-UNA VEZ CREADO LA BASE E IMPRTADO LOS DATOS EN MYSQL , SE IMPORTAN LOS DATOS A POWER BI PARA LAS VISUALIZACIONES
+Una vez creada la base e importados los datos en MySQL, se importan los datos a Power BI para las visualizaciones.
 
-EL DASHCBOARD CONSTA DE 4 PAGINAS DONDE SE ENTREGARAN LAS VISUALIZACION DEL ANALISIS IMPLEMENTADO:
+El dashboard consta de 4 páginas donde se entregarán las visualizaciones del análisis implementado:
 
-PORTADA----RESUMEN---DATOSGEOGRAFICOS---OBEJTIVOS 
+Portada
+Resumen
+Datos Geográficos
+Objetivos
+Lo pueden ver accediendo al archivo "Dashboard_Siniestros_Viales.pbix" o bien con una cuenta de Office 365 en: Power BI Dashboard
 
- lo pueden ver ACCEDIENDO al  ARCHIVO "Dashboard_Siniestros_Viales.pbix
 
-o bien con uan cuenta de office 365 en 
-https://app.powerbi.com/links/Hk4eAXn03c?ctid=f3ba59c3-bad4-442f-93aa-4cb73a8b7874&pbi_source=linkShare&bookmarkGuid=c131c463-fb85-45c3-ae94-1d3f30d9c20f
+Tegnologias Utilizadas
+
+![Static Badge](https://img.shields.io/badge/Python-gray?style=flat&logo=python)
+![Static Badge](https://img.shields.io/badge/-Pandas-gray?style=flat&logo=pandas)
+![Static Badge](https://img.shields.io/badge/-Matplotlib-gray?style=flat&logo=matplotlib)
+![Static Badge](https://img.shields.io/badge/-Seaborn-gray?style=flat&logo=seaborn)
+![Static Badge](https://img.shields.io/badge/-Jupyter_Notebook-gray?style=flat&logo=jupyter)
+![Static Badge](https://img.shields.io/badge/Visual_Studio_Code-gray?style=flat&logo=visual%20studio%20code&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Power_BI-gray?style=flat&logo=power-bi)
+
+
+Gracias por la visita , cualquier consulta me encuentro disponible a consultas.
+
+
+<div align="center">
+  <a href='https://www.linkedin.com/in/cintia-veron-93963a226/'>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"alt="Linkedin"/>
+  </a>
+  <a href='mailto:veroncintia@gmail.com '>
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+</div>
